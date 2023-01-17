@@ -1,12 +1,23 @@
-/* import Message from '../layouts/Message.js' */
+import {useLocation} from 'react-router-dom'
+
+import Message from '../layouts/Message.js'
 
 function Projects() {
+
+    const location = useLocation()
+
+    let message = ''
+    if(location.state){
+        message = location.state.message
+    }
+
     return (
         <div>
             <h1>Meus Projetos</h1>
-            {/* <Message msg="Alguma mensagem" type="error" /> */}
+            {message && <Message type="sucess" msg={message}/>}
         </div>
+
     )
 }
 
-export default Projects
+export default Projects;
