@@ -24,13 +24,44 @@
     },
     {
       "name": "Teste",
-      "budget": "123123",
+      "budget": "8000",
       "category": {
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 8000,
+      "services": [
+        {
+          "name": "teste",
+          "cost": "99",
+          "description": "teste",
+          "id": "d7d56424-e006-48e5-8e70-cf9f602d16ed"
+        },
+        {
+          "name": "teste 2",
+          "cost": "101",
+          "description": "teste 2",
+          "id": "1724ebb0-e306-48f9-a72c-ae159bf07c62"
+        },
+        {
+          "name": "teste 2",
+          "cost": "101",
+          "description": "teste 2",
+          "id": "1724ebb0-e306-48f9-a72c-ae159bf07c62"
+        },
+        {
+          "name": "teste 3",
+          "cost": "99",
+          "description": "teste 3",
+          "id": "229f266e-3073-47df-bb97-2ca8e17e2d08"
+        },
+        {
+          "name": "Erro",
+          "cost": "7600",
+          "description": "Erro",
+          "id": "2c98ac4f-3cd9-457e-b03d-08edc378bf01"
+        }
+      ],
       "id": 4
     }
   ],
